@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-    
+
 <body>
-    <hearder class="header">
+    <header class="header">
         <a href="#" class="logo">Me</a>
 
-        <i class="fa-solid fa-bars" class="menu-icon"></i>
+        <i class="fas fa-bars menu-icon"></i>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
             <a href="#services">Serviços</a>
             <a href="#skills">Skills</a>
-            <a href="#Education">Educação</a>
-            <a href="#experience">Experiencia</a>
+            <a href="#education-section">Educação</a>
+            <a href="#experience">Experiência</a>
             <a href="#contact">Contato</a>
         </nav>
+    </header>
 
-    </hearder>
     <section class="home" id="home">
         <div class="home-img">
             <img src="hinata.jpg" alt="">
         </div>
         <div class="home-content">
-            <h1>Prazer, sou o <span>João Pedro</span> </h1>
-            <h3 class="typing-text">Sou um  <span></span></h3>
-            <p>Sou um estudante da graduação do curso de Análise e desenvolvimento de sistemas, tenho 18 anos e 
+            <h1>Prazer, sou o <span>João Pedro</span></h1>
+            <h3 class="typing-text">Sou um <span></span></h3>
+            <p>Sou um estudante da graduação do curso de Análise e desenvolvimento de sistemas, tenho 18 anos e
                 sou apaixonado por tecnologia e programação. Estou atualmente em busca do meu primeiro emprego para ingressar
                 na área de desenvolvimento de sistemas. Estou focado em trabalhar com o back-end, me especializando na linguagem de
                 programação JAVA consolidando cada vez mais meus conhecimentos para o meu crescimento de carreira.
             </p>
             <div class="social-icon">
-                <a href="#" class="linkedin-icon"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="github-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jpzm12/" class="linkedin-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Joaozoi" class="github-icon"><i class="fab fa-github"></i></a>
             </div>
-            
 
-            <a href="#" class="btn">Hire me</a>
+            <a href="#" class="btn">Contate-me</a>
         </div>
     </section>
 
     <section class="services" id="services">
         <h2 class="heading">Serviços</h2>
-    
+
         <div class="services-container">
             <div class="service-box">
                 <div class="service-info">
@@ -58,35 +59,35 @@
                     <p>Criação de aplicações web robustas utilizando Java e frameworks como Spring, garantindo alta performance e escalabilidade.</p>
                 </div>
             </div>
-    
+
             <div class="service-box">
                 <div class="service-info">
                     <h4>Desenvolvimento de APIs RESTful em Java</h4>
                     <p>Desenvolvimento de APIs RESTful seguras e eficientes, permitindo a integração entre diferentes sistemas e aplicações.</p>
                 </div>
             </div>
-    
+
             <div class="service-box">
                 <div class="service-info">
                     <h4>Integração de Sistemas com Spring Boot</h4>
                     <p>Integração de sistemas utilizando Spring Boot, facilitando a comunicação e troca de dados entre diversos serviços.</p>
                 </div>
             </div>
-    
+
             <div class="service-box">
                 <div class="service-info">
                     <h4>Gerenciamento e Otimização de Bancos de Dados</h4>
                     <p>Design, implementação e otimização de bancos de dados relacionais e não relacionais para garantir alta eficiência e desempenho.</p>
                 </div>
             </div>
-    
+
             <div class="service-box">
                 <div class="service-info">
                     <h4>Implementação de Segurança em Aplicações Java</h4>
                     <p>Implementação de práticas de segurança em aplicações Java, incluindo autenticação, autorização e proteção contra vulnerabilidades.</p>
                 </div>
             </div>
-    
+
             <div class="service-box">
                 <div class="service-info">
                     <h4>Manutenção e Suporte de Aplicações Java</h4>
@@ -95,23 +96,106 @@
             </div>
         </div>
     </section>
+
     <section class="skills" id="skills">
         <h2 class="heading">Skills</h2>
         <div class="container">
             <div class="row">
                 <div class="bar">
                     <div class="info">
-                        <img src="" alt="">
-                        <span>Figma</span>
+                        <img src="html-5.png" alt="HTML icon" class="icon">
+                        <span class="span">HTML</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="css-3.png" alt="CSS Icon" class="icon">
+                        <span class="span">CSS</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="javascript.png" alt="JavaScript Icon" class="icon">
+                        <span class="span">JavaScript</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="python.png" alt="Python Icon" class="icon">
+                        <span class="span">Python</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="base-de-dados.png" alt="SQL Icon" class="icon">
+                        <span class="span">SQL</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="java.png" alt="Java Icon" class="icon">
+                        <span class="span">Java</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-        
-    
-    <script src="script.js"></script>
-    </body>
-    </html>
 
-    
+    <section class="education" id="education-section">
+        <h2 class="heading">Minha <span>Educação</span></h2>
+        <div class="timeline">
+            <div class="container right">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Ensino Médio</h2>
+                    </div>
+                    <div class="desc">
+                        <p>Realizei meu ensino médio juntamente do curso técnico de TI na instituição de ensino SENAC Nações Unidas/SP. <br> Início: 02/2021 <br> Fim: 12/2023 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Faculdade</h2>
+                    </div>
+                    <div class="desc">
+                        <p>Estou cursando atualmente a graduação de Análise e Desenvolvimento de Sistemas (atualmente no segundo semestre), na instituição de ensino SENAC Nações Unidas/SP. <br> Início: 2/2024 <br> Previsão de conclusão: 06/2026</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contato <span>Eu</span></h2>
+        <form action="">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Nome" required class="input">
+                <input type="email" placeholder="Email" required class="input">
+                <input type="number" placeholder="Número de Telefone" required class="input">
+                <input type="text" placeholder="Assunto" required class="input">
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+            <input type="submit" value="Enviar mensagem" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#" class="linkedin-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="github-icon"><i class="fab fa-github"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Sobre mim</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Políticas de Privacidade</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
